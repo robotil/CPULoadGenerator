@@ -1,7 +1,7 @@
 #!/bin/bash
 load=$1
 drt=$2
-if [ -z "$2"] ;then
+if [ -z "$2" ] ;then
     echo "no duration"
     dt="-l $load"
 else
